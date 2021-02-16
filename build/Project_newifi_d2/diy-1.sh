@@ -8,4 +8,3 @@
 # 想要什么插件就单独的拉取什么插件就好，或者告诉我，我把插件放我的插件包就行了
 # 软件包地址：https://github.com/281677160/openwrt-package
 sed -i '$a src-git lede https://github.com/garypang13/openwrt-packages' feeds.conf.default
-sed -i '$a src-git godproxy https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy" feeds.conf.default
